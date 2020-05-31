@@ -1,0 +1,5 @@
+ja:
+  top:
+    index:
+      title: I18nサンプルアプリケーション
+      description: これはRailsの国際化機能を使ってみているサンプルアプリケーションです。

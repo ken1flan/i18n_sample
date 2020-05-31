@@ -1,0 +1,5 @@
+en:
+  top:
+    index:
+      title: I18n sample application
+      description: This is a sample application of Rails I18n API.
