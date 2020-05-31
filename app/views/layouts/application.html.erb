@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <div align='right'>
+      <%= locale == :ja ? '日本語' : link_to('日本語', root_path(lang: 'ja')) %>
+      |
+      <%= locale == :en ? 'English' : link_to('English', root_path(lang: 'en')) %>
+    </div>
     <%= yield %>
   </body>
 </html>
