@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    models:
+      article: article
+    attributes:
+      article:
+        title: title
+        body: body
+        status: status
