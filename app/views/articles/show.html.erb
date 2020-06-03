@@ -1,17 +1,17 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong><%= Article.human_attribute_name(:title) %>:</strong>
   <%= @article.title %>
 </p>
 
 <p>
-  <strong>Body:</strong>
+  <strong><%= Article.human_attribute_name(:body) %>:</strong>
   <%= @article.body %>
 </p>
 
 <p>
-  <strong>Status:</strong>
+  <strong><%= Article.human_attribute_name(:status) %>:</strong>
   <%= @article.status %>
 </p>
 
