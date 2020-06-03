@@ -7,3 +7,8 @@ ja:
         title: タイトル
         body: 本文
         status: 状態
+  helpers:
+    placeholder:
+      article:
+        title: タイトルのプレースホルダーです。
+        body: 本文のプレースホルダーです。

@@ -7,3 +7,8 @@ en:
         title: title
         body: body
         status: status
+  helpers:
+    placeholder:
+      article:
+        title: placeholder of title
+        body: placeholder of body
