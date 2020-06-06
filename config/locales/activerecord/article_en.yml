@@ -4,9 +4,11 @@ en:
       article: article
     attributes:
       article:
-        title: title
-        body: body
-        status: status
+        title: Title
+        body: Body
+        status: Status
+        created_at: Created at
+        updated_at: Updated at
   helpers:
     placeholder:
       article:
