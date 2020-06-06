@@ -9,6 +9,19 @@ en:
         status: Status
         created_at: Created at
         updated_at: Updated at
+    errors:
+      models:
+        article:
+          attributes:
+            title:
+              title_must_contain_cat: is must contain cat
+  validation:
+    article:
+      title_must_contain_cat:
+        condition:
+          - Cat
+          - cat
+
   helpers:
     placeholder:
       article:

@@ -9,6 +9,21 @@ ja:
         status: 状態
         created_at: 作成日
         updated_at: 作成日
+    errors:
+      models:
+        article:
+          attributes:
+            title:
+              title_must_contain_cat: は必ず猫を含む必要があります。
+  validation:
+    article:
+      title_must_contain_cat:
+        condition:
+          - Cat
+          - cat
+          - 猫
+          - ねこ
+          - ネコ
   helpers:
     placeholder:
       article:
